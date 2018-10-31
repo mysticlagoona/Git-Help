@@ -1,0 +1,31 @@
+git help
+#############################################
+
+1. git status 
+2. git add <filenames>  // to add file to staged area. 
+3. git commit
+4. git commit --amend  //to rephrase the commit msg
+5. git push origin <local branch>:<remote branch> // HEAD can be used to push current position
+6. git pull origin <branchname>    //To pull from the remote branch
+7. git fetch --all // get the status of remote server 
+                      Fetch will not touch any of your local branches or the files in your working copy.
+                       It just downloads data from the specified remote and makes it visible for you.
+
+
+8. git checkout <branch name>
+9. git rebase 
+
+--------------------------------------------------------------------------------------
+git checkout master
+git pull 
+git checkout branch(branch name)
+git stash
+git rebase master (be on your branch)
+-------------------------------------------------------------------------------------
+
+git stash
+git pop
+
+--------------------------------------------------------------------------------------
+
+git push origin : branch( will delete the remote branch)
