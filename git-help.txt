@@ -29,3 +29,6 @@ git pop
 --------------------------------------------------------------------------------------
 
 git push origin : branch( will delete the remote branch)
+-------------------------------------------------------
+Read a file 
+git show <file name>
